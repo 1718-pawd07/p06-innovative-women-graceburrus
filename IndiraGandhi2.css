@@ -1,0 +1,69 @@
+/* Name:
+*  Date: 
+*  Lab: C13 Fixed Layout Exercise */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #E7CC99;
+    margin: 15px auto;
+    border: 1px solid white;
+}
+
+h1 {
+    padding: 10px;
+    margin: 15px;
+}
+
+header {
+    border-bottom: 2px solid #C67A63;
+}
+
+main {
+    height: 700px;
+    width: 53%;
+    float: left;
+    border-right: 2px solid #C67A63;
+    padding: 10px; 
+}
+
+#sidebarA {
+    width: 20%;
+    float: left; 
+    height: 700px;
+    border-right: 2px solid #C67A63;
+    padding: 10px;
+}
+
+#sidebarB {
+    width: 20%;
+    height: 700px;
+    float: right;
+    padding: 10px;
+}
+
+#left {
+	height: 20%;
+}
+
+#middle {
+	height: 250px;
+	width: 400px;
+	padding-left: 80px;
+	padding-right: 15px;
+	margin: 15px;
+}
+
+#right {
+	height: 250px;
+	width: 250px;
+}
+footer {
+    clear: left;
+    border-top: 2px solid #C67A63;
+    padding: 20px;
+}
